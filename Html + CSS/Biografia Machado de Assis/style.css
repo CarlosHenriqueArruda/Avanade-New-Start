@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+
+:root{
+    --marron: #C09283;
+    --rosa: #DCD0C0;
+    --branco: #F4F4F4;
+    --preto: #373737;
+}
+*{
+    margin: 0;/* espado dentro da caixa*/
+    padding: 0;/* espaço dentro da caixa*/
+}
+body{
+    background-color: var(--rosa); /* cor de fundo */
+    font-family: 'Agdasima', sans-serif; /* fonte */
+}
+header{ /* BARRA DE CIMA*/
+    background-image: linear-gradient(to bottom,var(--marron),var(--rosa));/* gradiente, primeiro a direção, dps cor q começa e dps a cor q termina*/
+    padding-top: 15px;
+    text-align: center;
+    min-height: 150;
+}
+h1{/*TITULO*/
+    font-weight: 100000;/*PESO DA FONTE*/
+    margin-bottom: 10;/* espaço pra baixo do titulo principal*/
+}
+header > p{ /*pegou o paragrafo do header, sem o ">" aplica pra todos*/
+    color: var(--branco);
+}
